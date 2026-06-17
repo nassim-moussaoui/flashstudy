@@ -30,7 +30,7 @@ import {
   Crown
 } from 'lucide-react';
 import { Course, GeneratedContent, ContentType, QuizQuestion, Folder, FlashcardItem } from './types';
-import { generateQuiz, generateSummary } from './services/geminiService';
+import { generateQuiz, generateSummary } from './services/aiService';
 import { supabase } from './services/supabaseClient';
 import QuizView from './components/QuizView';
 import Auth from './components/Auth';

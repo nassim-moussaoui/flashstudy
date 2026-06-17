@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Bot, User, Loader2, Sparkles, X, Lock, Shield } from 'lucide-react';
 import { ChatMessage, Course } from '../types';
-import { getChatResponse } from '../services/geminiService';
+import { getChatResponse } from '../services/aiService';
 
 interface CourseChatProps {
   course: Course;
